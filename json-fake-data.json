@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Torvin Stonebeard",
+    "race": "Dwarf",
+    "subrace": "Hill Dwarf",
+    "class": "Fighter",
+    "level": 5,
+    "background": "Sailor",
+    "alignment": "Lawful Good",
+    "experience_points": 6500,
+    "attributes": {
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 14,
+      "charisma": 8
+    },
+    "ability_modifiers": {
+      "strength": "+4",
+      "dexterity": "+1",
+      "constitution": "+3",
+      "intelligence": "+0",
+      "wisdom": "+2",
+      "charisma": "-1"
+    },
+    "proficiency_bonus": "+3",
+    "saving_throws": {
+      "strength": "+7",
+      "constitution": "+6"
+    },
+    "skills": {
+      "acrobatics": {"proficient": false, "bonus": "+1"},
+      "animal_handling": {"proficient": false, "bonus": "+2"},
+      "arcana": {"proficient": false, "bonus": "+0"},
+      "athletics": {"proficient": true, "bonus": "+7"},
+      "deception": {"proficient": false, "bonus": "-1"},
+      "history": {"proficient": false, "bonus": "+0"},
+      "insight": {"proficient": false, "bonus": "+2"},
+      "intimidation": {"proficient": false, "bonus": "-1"},
+      "investigation": {"proficient": false, "bonus": "+0"},
+      "medicine": {"proficient": false, "bonus": "+2"},
+      "nature": {"proficient": false, "bonus": "+0"},
+      "perception": {"proficient": true, "bonus": "+5"},
+      "performance": {"proficient": false, "bonus": "-1"},
+      "persuasion": {"proficient": false, "bonus": "-1"},
+      "religion": {"proficient": false, "bonus": "+0"},
+      "sleight_of_hand": {"proficient": false, "bonus": "+1"},
+      "stealth": {"proficient": false, "bonus": "+1"},
+      "survival": {"proficient": true, "bonus": "+5"}
+    },
+    "armor_class": 17,
+    "hit_points": {
+      "maximum": 45,
+      "current": 38
+    },
+    "hit_dice": "5d10",
+    "death_saves": {
+      "successes": 2,
+      "failures": 1
+    },
+    "equipment": [
+      {
+        "name": "Handaxe",
+        "quantity": 2,
+        "weight_lbs": 2,
+        "description": "Versatile melee weapon."
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "weight_lbs": 6,
+        "description": "+2 AC."
+      },
+      {
+        "name": "Scale Mail",
+        "quantity": 1,
+        "weight_lbs": 45,
+        "description": "Medium armor."
+      },
+      {
+        "name": "Explorer's Pack",
+        "quantity": 1,
+        "weight_lbs": 59,
+        "items": [
+          "Backpack",
+          "Bedroll",
+          "Mess kit",
+          "Tinderbox",
+          "Torches (10)",
+          "Rations (10 days)",
+          "Waterskin",
+          "Hempen rope (50 feet)"
+        ]
+      }
+    ],
+    "features_and_traits": [
+      {
+        "name": "Second Wind",
+        "description": "On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level."
+      },
+      {
+        "name": "Action Surge",
+        "description": "On your turn, you can perform one additional action."
+      },
+      {
+        "name": "Fighting Style: Unarmed Fighting",
+        "description": "Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you strike with two hands, the damage is 1d8 + your Strength modifier. When you successfully start a grapple, you can deal bludgeoning damage to the grappled creature equal to 1d4 + your Strength modifier."
+      },
+      {
+        "name": "Martial Archetype: Battle Master",
+        "description": "You learn maneuvers that are fueled by special dice called superiority dice."
+      }
+    ],
+    "proficiencies": {
+      "armor": ["Light Armor", "Medium Armor", "Heavy Armor", "Shields"],
+      "weapons": ["Simple Weapons", "Martial Weapons"],
+      "tools": ["Smith's Tools", "Navigator's Tools", "Vehicles (Water)"]
+    },
+    "languages": ["Common", "Dwarvish"],
+    "notes": "A gruff dwarf with a surprising knack for grappling."
+  },
+  {
+    "name": "Lyra Meadowlight",
+    "race": "High Elf",
+    "subrace": null,
+    "class": "Wizard",
+    "level": 5,
+    "background": "Sage",
+    "alignment": "Chaotic Good",
+    "experience_points": 6500,
+    "attributes": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 18,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "ability_modifiers": {
+      "strength": "-1",
+      "dexterity": "+2",
+      "constitution": "+1",
+      "intelligence": "+4",
+      "wisdom": "+1",
+      "charisma": "+0"
+    },
+    "proficiency_bonus": "+3",
+    "saving_throws": {
+      "intelligence": "+7",
+      "wisdom": "+4"
+    },
+    "skills": {
+      "acrobatics": {"proficient": false, "bonus": "+2"},
+      "animal_handling": {"proficient": false, "bonus": "+1"},
+      "arcana": {"proficient": true, "bonus": "+7"},
+      "athletics": {"proficient": false, "bonus": "-1"},
+      "deception": {"proficient": false, "bonus": "+0"},
+      "history": {"proficient": true, "bonus": "+3"},
+      "insight": {"proficient": false, "bonus": "+1"},
+      "intimidation": {"proficient": false, "bonus": "+0"},
+      "investigation": {"proficient": true, "bonus": "+7"},
+      "medicine": {"proficient": false, "bonus": "+1"},
+      "nature": {"proficient": true, "bonus": "+3"},
+      "perception": {"proficient": false, "bonus": "+1"},
+      "performance": {"proficient": false, "bonus": "+0"},
+      "persuasion": {"proficient": false, "bonus": "+0"},
+      "religion": {"proficient": true, "bonus": "+3"},
+      "sleight_of_hand": {"proficient": false, "bonus": "+2"},
+      "stealth": {"proficient": false, "bonus": "+2"},
+      "survival": {"proficient": false, "bonus": "+1"}
+    },
+    "armor_class": 12,
+    "hit_points": {
+      "maximum": 30,
+      "current": 25
+    },
+    "hit_dice": "5d6",
+    "death_saves": {
+      "successes": 0,
+      "failures": 0
+    },
+    "equipment": [
+      {
+        "name": "Quarterstaff",
+        "quantity": 1,
+        "weight_lbs": 4,
+        "description": "Simple melee weapon, can be used as a spellcasting focus."
+      },
+      {
+        "name": "Component Pouch",
+        "quantity": 1,
+        "weight_lbs": 2,
+        "description": "Holds spell components."
+      },
+      {
+        "name": "Scholar's Pack",
+        "quantity": 1,
+        "weight_lbs": 10,
+        "items": [
+          "Backpack",
+          "Notebook",
+          "Ink",
+          "Ink pen",
+          "Parchment (10 sheets)",
+          "Sand",
+          "Small knife"
+        ]
+      },
+           {
+            "name": "Spellbook",
+            "quantity": 1,
+            "weight_lbs": 3,
+            "spells": [
+              {"name": "Fire Bolt", "level": 0, "casting_time": "1 Action", "range": "120 feet"},
+              {"name": "Mage Hand", "level": 0, "casting_time": "1 Action", "range": "30 feet"},
+              {"name": "Detect Magic", "level": 1, "casting_time": "1 Action", "range": "Self"},
+              {"name": "Magic Missile", "level": 1, "casting_time": "1 Action", "range": "120 feet"},
+              {"name": "Scorching Ray", "level": 2, "casting_time": "1 Action", "range": "120 feet"},
+              {"name": "Fireball", "level": 3, "casting_time": "1 Action", "range": "150 feet"}
+            ]
+          }
+        ],
+        "features_and_traits": [
+          {
+            "name": "Arcane Recovery",
+            "description": "Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is no more than half your wizard level (rounded up), and none of the slots can be 6th level or higher."
+          },
+          {
+            "name": "Arcane Tradition: School of Evocation",
+            "description": "You focus your studies on magic that manipulates energy and raw forces to produce dramatic effects."
+          },
+           {
+            "name": "Sculpt Spells",
+            "description": "Beginning at 2nd level, when you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would otherwise take half damage on a successful save."
+          }
+        ],
+        "proficiencies": {
+          "armor": [],
+          "weapons": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+          "tools": []
+        },
+        "languages": ["Common", "Elvish", "Draconic"],
+        "notes": "A studious elf, always eager to learn new spells."
+      }
+    ,
+    {
+    "name": "Finnigan 'Finn' Quickfoot",
+    "race": "Lightfoot Halfling",
+    "subrace": null,
+    "class": "Rogue",
+    "level": 5,
+    "background": "Criminal",
+    "alignment": "Chaotic Neutral",
+    "experience_points": 6500,
+    "attributes": {
+      "strength": 9,
+      "dexterity": 18,
+      "constitution": 14,
+      "intelligence": 13,
+      "wisdom": 11,
+      "charisma": 15
+    },
+    "ability_modifiers": {
+      "strength": "-1",
+      "dexterity": "+4",
+      "constitution": "+2",
+      "intelligence": "+1",
+      "wisdom": "+0",
+      "charisma": "+2"
+    },
+    "proficiency_bonus": "+3",
+    "saving_throws": {
+      "dexterity": "+7",
+      "intelligence": "+4"
+    },
+    "skills": {
+      "acrobatics": {"proficient": true, "bonus": "+7"},
+      "animal_handling": {"proficient": false, "bonus": "+0"},
+      "arcana": {"proficient": false, "bonus": "+1"},
+      "athletics": {"proficient": false, "bonus": "-1"},
+      "deception": {"proficient": true, "bonus": "+5"},
+      "history": {"proficient": false, "bonus": "+1"},
+      "insight": {"proficient": false, "bonus": "+0"},
+      "intimidation": {"proficient": false, "bonus": "+2"},
+      "investigation": {"proficient": true, "bonus": "+4"},
+      "medicine": {"proficient": false, "bonus": "+0"},
+      "nature": {"proficient": false, "bonus": "+1"},
+      "perception": {"proficient": true, "bonus": "+3"},
+      "performance": {"proficient": false, "bonus": "+2"},
+      "persuasion": {"proficient": false, "bonus": "+2"},
+      "religion": {"proficient": false, "bonus": "+1"},
+      "sleight_of_hand": {"proficient": true, "bonus": "+7"},
+      "stealth": {"proficient": true, "bonus": "+7"},
+      "survival": {"proficient": false, "bonus": "+0"}
+    },
+    "armor_class": 15,
+    "hit_points": {
+      "maximum": 35,
+      "current": 30
+    },
+    "hit_dice": "5d8",
+    "death_saves": {
+      "successes": 0,
+      "failures": 0
+    },
+    "equipment": [
+      {
+        "name": "Shortsword",
+        "quantity": 1,
+        "weight_lbs": 2,
+        "description": "Finesse, light melee weapon."
+      },
+      {
+        "name": "Shortbow",
+        "quantity": 1,
+        "weight_lbs": 2,
+        "description": "Ammunition (range 80/320), light, two-handed."
+      },
+       {
+        "name": "Arrows",
+        "quantity": 20,
+        "weight_lbs": 1,
+        "description": "Ammunition."
+      },
+      {
+        "name": "Leather Armor",
+        "quantity": 1,
+        "weight_lbs": 10,
+        "description": "Light armor."
+      },
+      {
+        "name": "Burglar's Pack",
+        "quantity": 1,
+        "weight_lbs": 47,
+        "items": [
+          "Backpack",
+          "Bag of 1,000 ball bearings",
+          "50 feet of string",
+          "Bell",
+          "5 candles",
+          "Crowbar",
+          "Hammer",
+          "10 pitons",
+          "Lantern",
+          "2 flasks of oil",
+          "5 days of rations",
+          "Tinderbox",
+          "Waterskin",
+          "50 feet of hempen rope"
+        ]
+      },
+      {
+        "name": "Thieves' Tools",
+        "quantity": 1,
+        "weight_lbs": 1,
+        "description": "Required for skill checks using Thieves' Tools."
+      }
+    ],
+    "features_and_traits": [
+      {
+        "name": "Sneak Attack",
+        "description": "Once per turn, you can deal an extra 3d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or ranged weapon."
+      },
+      {
+        "name": "Expertise",
+        "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies."
+      },
+      {
+        "name": "Cunning Action",
+        "description": "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat to take the Dash, Disengage, or Hide action."
+      },
+       {
+        "name": "Roguish Archetype: Thief",
+        "description": "You hone your skills in the larceny and other roguish abilities."
+      },
+      {
+        "name": "Fast Hands",
+        "description": "Starting at 3rd level, you can use your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to use a trap or open a lock, or take the Use an Object action."
+      }
+    ],
+    "proficiencies": {
+      "armor": ["Light Armor"],
+      "weapons": ["Simple Weapons", "Hand crossbows", "Longswords", "Rapiers", "Shortswords"],
+      "tools": ["Thieves' Tools"]
+    },
+    "languages": ["Common", "Halfling"],
+    "notes": "A nimble and sly halfling with a knack for getting into (and out of) trouble."
+    }
+  ]
